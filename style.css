@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana;
+}
+
+canvas {
+    height: 200px;
+    border: 1px solid dimgray;
+}
+
+.title {
+    color:green;
+}

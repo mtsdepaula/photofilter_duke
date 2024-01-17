@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Filter Mini Project</title>
+</head>
+
+<body>
+
+    <h1 class="title">Upload an image and apply a filter!</h1>
+
+    <!-- Canvas to show image -->
+    <canvas id="canvas">
+    </canvas>
+
+    <!-- Image loader -->
+    <h2>Load Image:</h2>
+    <p>
+        <label for="finput">Choose file: </label>
+        <input type="file" multiple="false" accept="image/*" id="finput" name="finput" onchange="loadImage()">
+    </p>
+
+    <!-- Predefined filters -->
+    <h2>Choose Filter:</h2>
+    <p>
+        <input type="button" value="Grayscale" id="btnGrayscale" onclick="doGray()">
+        <input type="button" value="Red" id="btnRed" onclick="doRed()">
+        <input type="button" value="Yellow" id="btnYellow" onclick="doYellow()">
+        <input type="button" value="Black Window" id="btnWindow" onclick="doWindow()">
+        <input type="button" value="Rainbow" id="btnRainbow" onclick="doRainbow()">
+    </p>
+
+    <!-- Color choose filter -->
+    <p>
+        <label for="colorInput">Choose your own filter color:</label>
+        <input type="color" value="#000" name="colorInput" id="colorInput" onchange="doColorFilter(this.value)">
+    </p>
+
+    <!-- Filter reset -->
+    <p>
+        <input type="button" value="Reset Image" id="btnClear" onclick="resetImage()">
+    </p>
+
+    <!-- Script reference for this JavaScript -->
+    <script src="app.js"></script>
+    <!-- Script reference for SimpleImage Class from Duke University -->
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+</body>
+
+</html>
