@@ -1,6 +1,6 @@
 # Photo Filter - Mini Project
 
-Mini projeto desenvolvido no curso "Programming Foundations with JavaScript, HTML and CSS" da Duke University no Coursera.org.
+Mini projeto desenvolvido no curso [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web) da Duke University no [Coursera](https://www.coursera.org/).
 
 ## Introdução
 
@@ -8,11 +8,13 @@ Esse projeto foi desenvolvido para que os alunos pudessem combinar e aplicar tod
 
 O objetivo é criar um website simples que permita ao usuário fazer upload de uma imagem e aplicar diferentes filtros a ela.
 
-## Uso
+## Utilização
+
+[Photofilter](https://photofilter.vercel.app/)
 
 Clique no botão **Escolher arquivos**, escolha uma imagem em qualquer formato e clique em **Abrir**. A imagem deverá ser exibida na tela.
 
-Escolha e clique em um dos filtros entre *Grayscale*, *Red*, *Yellow*, *Black Window* ou *Rainbow* e veja o resultado.
+Clique em um dos filtros entre *Grayscale*, *Red*, *Yellow*, *Black Window* ou *Rainbow* e confira o resultado.
 Alternativamente, escolha uma cor na *palheta de cores* para aplicar um filtro na cor escolhida.
 
 O botão **Reset Image** reseta todos os filtros e retorna para imagem original.
